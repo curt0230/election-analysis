@@ -1,6 +1,6 @@
 # Election Analysis Application
 ## Project Overview
-A Colorado Board of Elections has requested an application to automate elections audits after a recent local congressional election.  The output requirements for the results are as follows:
+A Colorado Board of Elections official has requested an application to automate elections audits after a recent local congressional election.  The requirements for the output are as follows:
 
     1. Calculate the total number of votes.
     2. Get a complete list of candidates who received votes.
