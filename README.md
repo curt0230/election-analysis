@@ -1,11 +1,25 @@
-# Module 3 | Assignment - PyPoll
+# Election Analysis Application
+## Project Overview
+A Colorado Board of Elections has requested an application to automate elections audits after a recent local congressional election.  The output requirements for the results are as follows:
 
-Use the power of Python to automate the vote-counting process for an election.
+    1. Calculate the total number of votes.
+    2. Get a complete list of candidates who received votes.
+    3. Calculate the total number of botes each candidate received.
+    4. Calcualte the percentage of votes each candidate won.
+    5. Determine the winner of the election based on popular vote.
 
-## Challenge Solution
+## Resources
 
-[Challenge Solution](Challenge_Solution): The solution files for the module's challenge assignment are located in this folder.
+Data source:  [election_results.csv](https://github.com/curt0230/election-analysis/blob/main/resources/election_results.csv)
+Software:  Python 3.9.7, Visual Studio Code 1.66.1
 
-## Module Solution
+## Summary
 
-[Module Solution](Module_Solution): Any module demos or solution files for the module async content are located in this folder.
+Analysis of the election results show that:
+
+    - The total number of votes was 369,711
+    - Three candidates received votes:
+        - Charles Casper Stockham: 23.0% (85,213)
+        - Diana DeGette: 73.8% (272,892)
+        - Raymon Anthony Doane: 3.1% (11,606)
+    - The winner of the election based on popular vote was Diana DeGette with 73.8% of the total vote, or 272,892 votes.
