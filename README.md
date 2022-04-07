@@ -15,7 +15,7 @@ Software:  Python 3.9.7, Visual Studio Code 1.66.1
 
 ## Summary
 
-Analysis of the election results show that:
+Final analysis of the election results shows that:
 
     - The total number of votes was 369,711
     - Three candidates received votes:
