@@ -1,4 +1,4 @@
-# Election Analysis Application
+# Election Audit Application
 ## Overview of Election Audit
 A Colorado Board of Elections official has requested an application to automate elections audits after a recent local congressional election.  The requirements for the output are as follows:
 
