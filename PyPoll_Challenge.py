@@ -102,7 +102,7 @@ with open(file_to_save, "w") as txt_file:
         county_vote_percentage = (float(county_vote_count) / float(total_votes)) * 100
 
          # 6d: Print the county results to the terminal.
-        county_results = (f"{county_name}: {county_vote_percentage:.1f}% ({county_vote_count:,})\n")
+        county_results = (f"{county_name}: {county_vote_percentage:.1f}% ({county_vote_count:,})")
         print(county_results)
 
         # 6e: Save the county votes to a text file.
@@ -115,9 +115,11 @@ with open(file_to_save, "w") as txt_file:
 
     # 7: Print the county with the largest turnout to the terminal.
     winning_county_summary = (
-        f"\n-------------------------\n"
-        f"Largest County Turnout: {winning_county}\n"
-        f"-------------------------\n\n")
+        f"""\n-------------------------
+Largest County Turnout: {winning_county}
+-------------------------
+
+Candidate Votes:""")
     print(winning_county_summary)
 
 
@@ -131,7 +133,7 @@ with open(file_to_save, "w") as txt_file:
         votes = candidate_votes.get(candidate_name)
         vote_percentage = float(votes) / float(total_votes) * 100
         candidate_results = (
-            f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+            f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})")
 
         # Print each candidate's voter count and percentage to the
         # terminal.
@@ -147,11 +149,12 @@ with open(file_to_save, "w") as txt_file:
 
     # Print the winning candidate (to terminal)
     winning_candidate_summary = (
-        f"-------------------------\n"
-        f"Winner: {winning_candidate}\n"
-        f"Winning Vote Count: {winning_count:,}\n"
-        f"Winning Percentage: {winning_percentage:.1f}%\n"
-        f"-------------------------\n")
+    f"""\n-------------------------
+Winner: {winning_candidate}
+Winning Vote Count: {winning_count:,}
+Winning Percentage: {winning_percentage:.1f}%
+-------------------------""")
+
     print(winning_candidate_summary)
 
     # Save the winning candidate's name to the text file
