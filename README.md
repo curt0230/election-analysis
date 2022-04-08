@@ -2,17 +2,17 @@
 ## Overview of Election Audit
 A Colorado Board of Elections official has requested an application to automate elections audits after a recent local congressional election.  The requirements for the output are as follows:
 
-    1. Calculate the total number of votes.
-    2. Get a complete list of candidates who received votes and calculate the total number and the percentage of votes each candidate received.
-    3. Determine the winner of the election based on popular vote.
-    4. Calculate the total count and percentage of voter turnout by county
-    5. Determine which county had the largest number of voters overall
-    6. Output the results both to the terminal when the application executes and to a text file
+1. Calculate the total number of votes.
+2. Get a complete list of candidates who received votes and calculate the total number and the percentage of votes each candidate received.
+3. Determine the winner of the election based on popular vote.
+4. Calculate the total count and percentage of voter turnout by county
+5. Determine which county had the largest number of voters overall
+6. Output the results both to the terminal when the application executes and to a text file
 
 ## Audit Resources
-Software:  Python 3.9.7, Visual Studio Code 1.66.1
-Data source:  [election_results.csv](https://github.com/curt0230/election-analysis/blob/main/resources/election_results.csv)
-Data text file output:  [election_analysis.txt](https://github.com/curt0230/election-analysis/blob/main/analysis/election_analysis.txt)
+* Software:  Python 3.9.7, Visual Studio Code 1.66.1
+* Data source:  [election_results.csv](https://github.com/curt0230/election-analysis/blob/main/resources/election_results.csv)
+* Data text file output:  [election_analysis.txt](https://github.com/curt0230/election-analysis/blob/main/analysis/election_analysis.txt)
 
 ## Audit Results
 Final analysis of the election results shows that:
