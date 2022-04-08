@@ -9,6 +9,14 @@ A Colorado Board of Elections official has requested an application to automate 
 5. Determine which county had the largest number of voters overall
 6. Output the results both to the terminal when the application executes and to a text file
 
+The data source, election_results.csv, is a CSV file formatted as follows:
+* Value 1 is a unique record identifier
+* Value 2 is the name of the county where the vote was cast
+* Value 3 is the name of the candidate for whom the vote was cast
+* The field delimiter in the CSV file is a comma
+* There is no text qualifier
+* There are no blank rows in the file
+    
 ## Audit Resources
 * Software:  Python 3.9.7, Visual Studio Code 1.66.1
 * Data source:  [election_results.csv](https://github.com/curt0230/election-analysis/blob/main/resources/election_results.csv)
@@ -32,14 +40,7 @@ Command output:
 ![terminal_output.png](/resources/terminal_output.png)
 
 ## Audit Summary
-The data source, election_results.csv, is a CSV file formatted as follows:
-* Value 1 is a unique record identifier
-* Value 2 is the name of the county where the vote was cast
-* Value 3 is the name of the candidate for whom the vote was cast
-* The field delimiter in the CSV file is a comma
-* There is no text qualifier
-    
-Any collection of election results formatted in this manner can be analyzed by he script developed for analyzing this elections results, including future elections for this district or elections in other districts where the results are reported at the county level.  The script could be modified to take in additional inputs, which would allow for scaling to lower-level districts such as local school board elections.  Additional inputs could also allow for reporting at higher level elections such as those for federal congressional districts.  This type of modifiction would require collecting some additional key-value pairs in the dictionaries and adding more formatted sections to the screen and text file outputs.
+Any collection of election results formatted in the same manner as the original source file can be analyzed using this script, including future elections for this district or elections in other districts where the results are reported at the county level.  The script could be modified to take in additional inputs, which would allow for scaling to both lower-level districts such as local school board elections or higher level elections such as those for federal congressional districts.  This type of modifiction would require collecting additional catagories that would then be added as key-value pairs in the dictionaries.  Then, data could be summarized to the various catagories and formatted sections for the new catagories could be added to the screen and text file outputs.
 
 An additional metric of interest may be to output which candidate won each district individually.  This would be a small modifiction that wouldn't require additional inputs but might give candidates and their parties greater insight into which areas their campaigns were more or less effective and where they should focus their efforts for the next election.
 
