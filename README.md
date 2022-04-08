@@ -11,6 +11,9 @@ A Colorado Board of Elections official has requested an application to automate 
 ## Resources
 
 Data source:  [election_results.csv](https://github.com/curt0230/election-analysis/blob/main/resources/election_results.csv)
+Data text file output:  [election_analysis.txt](https://github.com/curt0230/election-analysis/blob/main/analysis/election_analysis.txt)
+Data command screen output:  
+![terminal_output.png](/Resources/terminal_output.png)
 Software:  Python 3.9.7, Visual Studio Code 1.66.1
 
 ## Summary
